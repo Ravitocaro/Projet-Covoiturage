@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+li a:hover{
+    background-color: rgb(150, 150, 150);
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+
+
+article{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.produit{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    line-height: 90px;
+    
+}
+.image{
+    width: 90px;
+    height: 90px;
+}
+
+
+.id{
+    margin-left:40px;
+}
+.id a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.id a:hover{
+    text-decoration: underline;
+}
+
+.nom{
+    margin:auto;
+}
+
+.prix{
+    float: right;
+    margin-right: 50px;
+}
+
+.action{
+    margin-right: 40px;
+
+}
+.action a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 0, 76);
+}
+.action a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+footer{
+    width:100%;
+    display:flex;
+    background-color: #333;
+    margin: 20px auto auto auto;
+    
+}
+p{
+    color: whitesmoke;
+    margin: auto;
+}
+
+
